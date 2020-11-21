@@ -22,7 +22,73 @@
             </ul>
         </nav>
     </div>
-    <div>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="" />
+        </div>
+    </form>
+
+    <form action="/enviar" method="post">
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="" />
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <p>Usas algo de esto</p>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="lenguaje" value="html">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="lenguaje" value="css">
+
+            <label for="js">Javascript</label>
+            <input type="checkbox" id="js" name="lenguaje" value="javascript">
+
+            <label for="ng">Boostrap</label>
+            <input type="checkbox" id="ng" name="lenguaje" value="Angular">
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <p>Tu rango de experiencia</p>
+            <label for="0">Novato</label>
+            <input type="radio" id="0" value="0" name="tiempo" />
+
+            <label for="1a2">adelantado</label>
+            <input type="radio" id="1a2" value="1a2" name="tiempo" />
+
+            <label for="3a4">EXperimentado</label>
+            <input type="radio" id="3a4" value="3a4" name="tiempo" />
+
+            <label for="5omas">Experto</label>
+            <input type="radio" id="5omas" value="5omas" name="tiempo" />
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+
+        <div>
+            <select name="" id="">
+	    		<option value="1">Ensenada</option>
+	    		<option value="">La Plata</option>
+	    		<option value="">Magdalena</option>
+	    	</select>
+        </div>
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="" />
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="name">Mensaje:</label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <input type="submit" value="enviar">
+    </form>
+
 
 </body>
 
