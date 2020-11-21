@@ -2,6 +2,8 @@
  /-/Ejercicos basicos de html y css\-\
 
     *Maquetacion
+        -semantica html
+        -semantica css
         -estructura
 
     *seccion interna-navegacion
