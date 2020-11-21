@@ -61,7 +61,7 @@ ul.breadcrumb li+li::before {
 }
 
 
-/* color a los items */
+/* color a los items y eliminacion de decoracion*/
 
 ul.breadcrumb li a {
     color: #0b38b3;
