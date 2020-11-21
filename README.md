@@ -4,7 +4,9 @@
     *Maquetacion
         -estructura
 
-    *navegacion interna
+    *seccion interna-navegacion
+        -float
+        -img
         -breadcrumb
 
     *Formularios
@@ -14,6 +16,8 @@
         -select-option
         -textarea
         -form
-        
+
     *Flex-Box
+    *Font css
+    *icons
     
