@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(111, 118, 122);
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(38, 155, 145)e;
+    margin-top: 7%;
+}
+
+h3 {
+    color: white;
+    background-color: rgb(38, 155, 145);
+    text-justify: uppercase;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px rgb(58, 56, 56) solid;
+    background-color: white;
+    text-align: left;
+    padding-left: 10%;
+    color: black;
+    text-justify: uppercase;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(38, 155, 145);
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+}

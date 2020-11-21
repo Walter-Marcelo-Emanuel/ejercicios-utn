@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="lenguaje" value="html">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="lenguaje" value="css">
+
+            <label for="js">Javascript</label>
+            <input type="checkbox" id="js" name="lenguaje" value="javascript">
+
+            <label for="ng">Angular</label>
+            <input type="checkbox" id="ng" name="lenguaje" value="Angular">
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="" />
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="menos18">Menos de 18</label>
+            <input type="radio" id="menos18" value="menos18" name="edad" />
+
+            <label for="18a30">18 a 30</label>
+            <input type="radio" id="18a30" value="18a30" name="edad" />
+
+            <label for="31a50">31 a 50</label>
+            <input type="radio" id="31a50" value="31a50" name="edad" />
+
+            <label for="mas50">Más de 50</label>
+            <input type="radio" id="mas50" value="mas50" name="edad" />
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="" />
+        </div>
+        <div>
+            <select name="" id="">
+	    		<option value="1">CABA</option>
+	    		<option value="">Buenos Aires</option>
+	    		<option value="">Catamarca</option>
+	    		<option value="">Chaco</option>
+	    		<option value="">Formosa</option>
+	    		<option value="">Misiones</option>
+	    		<option value="">Santiago del Estero</option>
+	    		<option value="">Corrientes</option>
+	    		<option value="">Salta</option>
+	    		<option value="">Jujuy</option>
+	    		<option value="">Tucuman</option>
+	    		<option value="">La Rioja</option>
+	    		<option value="">Cordoba</option>
+	    		<option value="">San Juan</option>
+	    		<option value="">Mendoza</option>
+	    		<option value="">Neuquen</option>
+	    		<option value="">San Luis</option>
+	    		<option value="">La Pampa</option>
+	    	</select>
+        </div>
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="name">Mensaje:</label>
+            <textarea name="" id=""></textarea>
+        </div>
+
+        <input type="submit" value="enviar">
+    </form>
+    <form action="/enviar" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="" />
+        </div>
+    </form>
+
+</body>
+
+</html>
