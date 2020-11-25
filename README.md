@@ -93,12 +93,12 @@
                                             --establecido, no sirve si se usan
                                             --mid-width o max-width
             --------------------------------------------------------------------------------------
-            -flex: 0 1 auto; --defaul--                                             ---viewport--
-                   A <flex-grow> + <flex-shrink> + <flex-basis>                    | AAAAAAAAAAA |
-                   B <flex-grow>                                                   | BBBBB CCCCC |
-                   C <flex-basis>                                                  | DDDDD EEEEE |
-                   D <flex-grow> + <flex-basis>
-                   E <flex-grow> + <flex-shrink>
+            -flex: 0 1 auto; --defaul--                                             
+                    <flex-grow> + <flex-shrink> + <flex-basis>                    
+                    <flex-grow>                                                   
+                    <flex-basis>                                                  
+                    <flex-grow> + <flex-basis>
+                    <flex-grow> + <flex-shrink>
             --------------------------------------------------------------------------------------
             -align-self: stretch; --default--
                          flex-start;

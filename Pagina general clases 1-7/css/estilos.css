@@ -4,13 +4,31 @@
 }
 
 
-/*fondos de paginas*/
+/*paginas*/
 
 body {
     /*display: flex;*/
     background-color: rgb(121, 99, 26);
     font-family: 'Open Sans', sans-serif;
+}
+
+.cuadro {
+    box-sizing: border-box;
+    border-width: 1024px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.cuadro img {
+    width: 400px;
+    height: 250px;
     border-radius: 2%;
+}
+
+.leftup {
+    float: right;
 }
 
 .body_galeria {
@@ -81,6 +99,6 @@ ul.breadcrumb li a:hover {
 /*seccion propaganda*/
 
 .propaganda {
-    border: 1px solid greenyellow;
-    width: 92%;
+    border: 1px solid rgb(91, 138, 22);
+    width: 97%;
 }
