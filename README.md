@@ -1,5 +1,7 @@
 # HTML5 CSS3
 
+ /-/ machete  \-\
+
     *Maquetacion
 
         -semantica html
@@ -44,13 +46,12 @@
                         <flex-direction>;
                         <flex-wrap>;
 
- ---------- -justify-content: flex-start;    --default-- 
-|estos se  |                  flex-end;
-|aplican a |                  center;
-|la linea  |                  space-around;
- ----------                   space-between;
-                              space-evenly;
-
+            -justify-content: flex-start;    --default-- 
+             ----------       flex-end;
+            |estos se  |      center;
+            |aplican a |      space-around;
+            |la linea  |      space-between;
+             ----------       space-evenly;
             -align-content: strech; 
                             flex-start;
                             flex-end;
@@ -58,14 +59,15 @@
                             space-between;
                             space-around;           
 
- ---------  -flex-direction:  column;
-|estos se | -justify-content: flex-start;    --default-- 
-|aplican  |                   flex-end;
-|en la    |                   center;
-|columna  |                   space-around;  
- ---------                    space-between;
-                              space-evenly;  
-                              
+            -flex-direction:  column;
+            -justify-content: flex-start;    --default-- 
+             ---------        flex-end;
+            |estos se |       center;
+            |aplican  |       space-around;  
+            |en la    |       space-between;
+            |columna  |       space-evenly;  
+             ---------
+
             -flex-direction: column;
             -align-items: strech;            --default--
                           flex-star;
@@ -73,7 +75,7 @@
                           center;
                           baseline;
 
-        
+
         # Opciones hijo
             -order:
             -flex-grow:
