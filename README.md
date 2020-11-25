@@ -52,6 +52,7 @@
             |aplican a |      space-around;
             |la linea  |      space-between;
              ----------       space-evenly;
+
             -align-content: strech; 
                             flex-start;
                             flex-end;
@@ -75,12 +76,21 @@
                           center;
                           baseline;
 
-
         # Opciones hijo
-            -order:
-            -flex-grow:
-            -flex-shrink:
-            -flex-basis:
+
+            -order: 0;     --el valor por default del elemento a mover--
+                    <numero -x(left)-- 0(base)-- +x(right)>  (where  x == number)
+
+            -flex-grow: 0; --el valor por default del elemento a crecer--
+              <flex-grow: x;> -- 0(base)-- x(more grow) (where  x == number)
+
+            -flex-shrink:0; --el valor por default del elemento achicar--
+              <flex-shrink: x;> -- 0(base)-- x(more shrink)  (where  x == number)
+
+            -flex-basis: auto; --default--     --cuando un articulo tiene flex-basis
+                                               --el navegador siempre usará el valor
+                                               --establecido
+                         <width>;
             -flex:
             -align-self:
                 
