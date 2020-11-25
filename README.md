@@ -87,11 +87,17 @@
             -flex-shrink:0; --el valor por default del elemento achicar--
               <flex-shrink: x;> -- 0(base)-- x(more shrink)  (where  x == number)
 
-            -flex-basis: auto; --default--     --cuando un articulo tiene flex-basis
-                                               --el navegador siempre usará el valor
-                                               --establecido
-                         <width>;
-            -flex:
+            -flex-basis: auto; --default--  --cuando un articulo tiene flex-basis
+                      <width>;              --el navegador siempre usará el valor
+                                            --establecido, no sirve si se usan
+                                            --mid-width o max-width
+                         
+            -flex: 0 1 auto; --defaul--                                             ---viewport--
+                   A <flex-grow> + <flex-shrink> + <flex-basis>                    | AAAAAAAAAAA |
+                   B <flex-grow>                                                   | BBBBB CCCCC |
+                   C <flex-basis>                                                  | DDDDD EEEEE |
+                   D <flex-grow> + <flex-basis>
+                   E <flex-grow> + <flex-shrink>
             -align-self:
                 
     *Font css
