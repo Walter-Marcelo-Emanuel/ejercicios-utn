@@ -11,7 +11,8 @@ body {
     background-color: rgb(121, 99, 26);
     font-family: 'Open Sans', sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
     text-shadow: aquamarine 2px 3px 4px;
 }
@@ -33,14 +34,21 @@ h1{
 
 
 /*---------galeria----------*/
+
 .body_galeria {
     background-color: rgba(129, 77, 12, 0.541);
 }
+
+
 /*---------contacto--------*/
+
 .body_contacto {
     background-color: darkgreen;
 }
+
+
 /*--------formulario-------*/
+
 .body_form {
     background-color: darkslategray;
 }
