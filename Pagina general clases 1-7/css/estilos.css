@@ -11,6 +11,10 @@ body {
     background-color: rgb(121, 99, 26);
     font-family: 'Open Sans', sans-serif;
 }
+h1{
+    text-align: center;
+    text-shadow: aquamarine 2px 3px 4px;
+}
 
 .cuadro {
     box-sizing: border-box;
@@ -27,25 +31,22 @@ body {
     border-radius: 2%;
 }
 
-.leftup {
-    float: right;
-}
 
+/*---------galeria----------*/
 .body_galeria {
     background-color: rgba(129, 77, 12, 0.541);
 }
-
+/*---------contacto--------*/
 .body_contacto {
     background-color: darkgreen;
 }
-
+/*--------formulario-------*/
 .body_form {
     background-color: darkslategray;
 }
 
 
-/*menu de navegacion----
-    recuadro -estilo*/
+/*---general---menu de navegacion----recuadro -estilo*/
 
 .navbar {
     margin-top: 1%;
@@ -58,7 +59,7 @@ body {
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: white;
 }
 
 
