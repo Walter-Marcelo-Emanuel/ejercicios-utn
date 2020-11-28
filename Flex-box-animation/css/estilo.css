@@ -6,9 +6,12 @@ body{
     background-color: black;
 }
 .contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
     width: 90%;
+    /*border: 2px white solid;*/
     display: flex;
-    margin: 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -19,6 +22,11 @@ body{
         border-radius: 50%;
         background-color: red;
     }
+        .caja1:hover{
+            box-shadow: none;
+            border-radius: 50%;
+            background-color: rgb(255, 123, 0);
+        }
 
     .caja2 {
         width: 100px;
@@ -26,12 +34,19 @@ body{
         border-radius: 50%;
         background-color: rgb(255, 0, 179);
     }
+        .caja2:hover{
+            border-radius:25%;
+            background-color: rgb(145, 14, 106);
+        }
     .caja3 {
         width: 100px;
         height: 100px;
         border-radius: 50%;
         background-color: rgb(234, 0, 255);
     }
+        .caja3:hover {
+            opacity: 85%;
+        }
     .caja4 {
         width: 100px;
         height: 100px;
