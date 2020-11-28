@@ -10,6 +10,8 @@ body {
     /*display: flex;*/
     background-color: rgb(121, 99, 26);
     font-family: 'Open Sans', sans-serif;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -18,19 +20,23 @@ h1 {
 }
 
 .cuadro {
-    box-sizing: border-box;
-    border-width: 1024px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 2%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: center;
+   
+    
 }
+    .cuadro img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
 
-.cuadro img {
-    width: 400px;
-    height: 250px;
-    border-radius: 2%;
-}
 
 
 /*---------galeria----------*/
@@ -51,6 +57,7 @@ h1 {
 
 .body_form {
     background-color: darkslategray;
+    width: 1024px;
 }
 
 
@@ -106,8 +113,20 @@ ul.breadcrumb li a:hover {
 
 
 /*seccion propaganda*/
-
 .propaganda {
-    border: 1px solid rgb(91, 138, 22);
-    width: 97%;
-}
+    animation-duration: 10s;
+    animation-name: propaganda;
+    animation-iteration-count: infinite;
+    animation-direction: right;
+    transition-timing-function: linear;
+  }
+  
+  @keyframes propaganda {
+    from {
+      margin-left:1024px;
+    }
+    
+    to {
+     margin-right:1024px;
+   }
+  }
