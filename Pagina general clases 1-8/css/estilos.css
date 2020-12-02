@@ -117,16 +117,16 @@ ul.breadcrumb li a:hover {
     animation-duration: 10s;
     animation-name: propaganda;
     animation-iteration-count: infinite;
-    animation-direction: right;
+    animation-direction: alternate;
     transition-timing-function: linear;
   }
   
   @keyframes propaganda {
     from {
-      margin-left:1024px;
+        margin-right:1024px;
     }
     
     to {
-     margin-right:1024px;
+        margin-left:124px;
    }
   }
