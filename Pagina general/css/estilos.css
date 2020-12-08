@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&family=Ranchers&display=swap');
 * {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 /*paginas*/
@@ -20,6 +19,7 @@ h1 {
     text-align: center;
     font-family: 'Ranchers', cursive;
 }
+
     h1:hover{
         text-shadow: aquamarine 1px 2px 3px;
     }
@@ -32,20 +32,18 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 90%;
-    text-align: center;
-   
-    
+    text-align: center;   
 }
+
     .cuadro img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
     }
+
         img:hover{
             border: black solid 1px;
         }
-
-
 
 /*---------galeria----------*/
 
@@ -53,13 +51,11 @@ h1 {
     background-color: rgba(129, 77, 12, 0.541);
 }
 
-
 /*---------contacto--------*/
 
 .body_contacto {
     background-color: darkgreen;
 }
-
 
 /*--------formulario-------*/
 
@@ -67,7 +63,6 @@ h1 {
     background-color: darkslategray;
     width: 1024px;
 }
-
 
 /*---general---menu de navegacion----recuadro -estilo*/
 
@@ -85,14 +80,12 @@ ul.breadcrumb {
     background-color: white;
 }
 
-
 /* ancho */
 
 ul.breadcrumb li {
     display: inline;
     font-size: 15px;
 }
-
 
 /* colocar el simbolo (/) entre los items de la lista */
 
@@ -102,14 +95,12 @@ ul.breadcrumb li+li::before {
     content: "/";
 }
 
-
 /* color a los items y eliminacion de decoracion*/
 
 ul.breadcrumb li a {
     color: #0b38b3;
     text-decoration: none;
 }
-
 
 /* color sobre el items con el mouse arriba
 y señalamiento de link*/
@@ -119,21 +110,19 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-
 /*seccion propaganda*/
+
 .propaganda {
     animation-duration: 10s;
     animation-name: propaganda;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     transition-timing-function: linear;
-  }
-  
+  }  
   @keyframes propaganda {
     from {
         transform: translateX(0px);
-    }
-    
+    }   
     to {
         transform: translateX(260px);
    }
