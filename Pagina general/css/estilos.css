@@ -123,10 +123,10 @@ ul.breadcrumb li a:hover {
   
   @keyframes propaganda {
     from {
-        margin-right:1024px;
+        transform: translateX(0px);
     }
     
     to {
-        margin-left:124px;
+        transform: translateX(260px);
    }
   }
