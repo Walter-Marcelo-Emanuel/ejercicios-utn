@@ -53,7 +53,9 @@ h1 {
 .body_galeria {
     background-color: rgba(219, 141, 46, 0.705);
 }
-
+    .body_galeria:hover{
+        background-color: #0d77d4;
+    }
 .grilla {
 	margin: 20px 0 0 0;
 	padding: 0;
@@ -63,8 +65,8 @@ h1 {
 	width: 100%;
 }
 
-.grilla:after,
-.item:before {
+.grilla:before,
+.item:after {
 	content: '';
     display: table;
 }
